@@ -1,0 +1,47 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+body {
+  font-family: "Helvetica";
+}
+.page_header {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: auto;
+  background-color: #e0e0e0;
+  border-color: #b0b0b0;
+  border-style:solid;
+  border-width:1px;
+  text-align:center;
+}
+.header_text {
+  vertical-align: top;
+  color: #999999;
+  font-family: "Helvetica";
+  font-size: 40px;
+}
+.page_menu {
+  position:absolute;
+  top:61px;
+  left:0px;
+  width:100px;
+  height:auto;
+  border-color:#b0b0b0;
+  border-style:solid;
+  border-width:1px;
+}
+.page_content {
+  position: relative;
+  top:100px;
+  width:100%;
+  height:auto;
+  border-color:#b0b0b0;
+  border-style:solid;
+  border-width:1px;
+}
